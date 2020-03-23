@@ -1,0 +1,146 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+  p {
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'SegoeUI-Semibold';
+}
+p, span, a {
+    font-family: 'segoe_regular';
+}
+@font-face {
+    font-family: 'segoe_regular';
+    src: url('fonts/segoe_regular.eot');
+    src: local('☺'), url('fonts/segoe_regular.woff') format('woff'), 
+    url('fonts/segoe_regular.ttf') format('truetype'), 
+    url('fonts/segoe_regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'SegoeUI-Semibold';
+    src: url('fonts/SegoeUI-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SegoeUI-Semibold.woff') format('woff'),
+         url('fonts/SegoeUI-Semibold.ttf')  format('truetype'),
+         url('fonts/SegoeUI-Semibold.svg#SegoeUI-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SegoeUI-Bold';
+    src: url('fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SegoeUI-Bold.woff') format('woff'),
+         url('fonts/SegoeUI-Bold.ttf')  format('truetype'),
+         url('fonts/SegoeUI-Bold.svg#SegoeUI-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: 'SegoeUI-Semibold', sans-serif;
+    font-size:14px;
+    color: #fff;
+  }
+  .ad-text p {
+    line-height: 1.2;
+    min-height: 32px;
+    font-family: 'SegoeUI-Semibold', sans-serif;
+  }
+  .microsoft-logo {
+    padding-left:20px;
+  }
+  .upgrade-cta {
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size:12px;
+    text-align: center;
+    background-color: #000;
+    font-family: 'SegoeUI-Semibold', sans-serif;
+  }
+
+  .scale-1 {
+      transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  .see-details {
+    font-size:10px;
+    display: block;
+    margin-top: 12px;
+    position: relative;
+  }
+  #banner-container {
+      height: 90px;
+      width: 728px;
+      background: url('assets/blue-bg.png') top left, no-repeat;
+      position: relative;
+      overflow: hidden;
+  }
+  a.upgrade-cta {
+      width: 100%;
+      display: block;
+      height: 45px;
+      line-height: 45px;
+      margin-top: 10px;
+      font-size: 11px;
+  }
+  #banner-container  > div{
+      padding-top:18px;
+  }
+  .banner-left > div {
+      float: left;
+  }
+  .banner-left {
+      width:605px;
+      float: left;
+  }
+  .banner-right {
+      width:123px;
+      float: left;
+  }
+  .ad-text {
+      padding-left:20px;
+      width: 241px;
+  }
+  .ad-text p {
+      font-size: 16px;
+      position: relative;
+      margin-top: -4px;
+  }
+  .contoso-logo {
+      text-align:right;
+      padding-right: 20px;
+      margin-top:-2px;
+  }
+  .laptop {
+      position: relative;
+      margin-top: -7px;
+  }
+  .op_animate {
+    opacity: 1;
+  }
+
+  .op_animate-none {
+      display: inline-block
+  }
+
+  .ad-logo {
+      position: relative;
+      top: 12px;
+      left: 38px;
+  }
+
+  .transition-element {
+      width: 500px;
+      height: 500px;
+      background: #FFF;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+  }

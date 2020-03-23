@@ -1,0 +1,188 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+  p {
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'SegoeUI-Semibold';
+}
+p, span, a {
+    font-family: 'segoe_regular';
+}
+@font-face {
+    font-family: 'segoe_regular';
+    src: url('fonts/segoe_regular.eot');
+    src: local('☺'), url('fonts/segoe_regular.woff') format('woff'), 
+    url('fonts/segoe_regular.ttf') format('truetype'), 
+    url('fonts/segoe_regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'SegoeUI-Semibold';
+    src: url('fonts/SegoeUI-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SegoeUI-Semibold.woff') format('woff'),
+         url('fonts/SegoeUI-Semibold.ttf')  format('truetype'),
+         url('fonts/SegoeUI-Semibold.svg#SegoeUI-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SegoeUI-Bold';
+    src: url('fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SegoeUI-Bold.woff') format('woff'),
+         url('fonts/SegoeUI-Bold.ttf')  format('truetype'),
+         url('fonts/SegoeUI-Bold.svg#SegoeUI-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: 'SegoeUI-Semibold', sans-serif;
+    font-size:14px;
+    color: #fff;
+  }
+  .ad-text p {
+    line-height: 1.2;
+    min-height: 32px;
+    font-family: 'SegoeUI-Semibold';
+  }
+  .microsoft-logo {
+    padding-left:20px;
+  }
+  .upgrade-cta {
+      color:#FFFFFF;
+      text-decoration: none;
+    font-size:12px;
+    text-align: center;
+    background-color: #000;
+    font-family: 'SegoeUI-Semibold', sans-serif;
+  }
+
+  .scale-1 {
+      transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  .see-details {
+    font-size:10px;
+    position: relative;
+    top: 10px;
+    margin-top: 13px;
+    display: block;
+  }
+  #banner-container {
+      height: 90px;
+      width: 728px;
+      background: url('assets/blue-bg.png') top left, no-repeat;
+      position: relative;
+      overflow: hidden;
+  }
+  a.upgrade-cta {
+      width: 100%;
+      display: block;
+      height: 45px;
+      line-height: 45px;
+      margin-top: 10px;
+      font-size: 11px;
+  }
+  #banner-container  > div{
+      padding-top:18px;
+  }
+  .banner-left > div {
+      float: left;
+  }
+  .banner-left {
+      width:605px;
+      float: left;
+  }
+  .banner-right {
+      width:123px;
+      float: left;
+  }
+  .ad-text {
+      margin-left:20px;
+      width: 242px;
+  }
+  .ad-text p {
+      font-size: 16px;
+      /* position: relative; */
+      margin-top: -4px;
+/* 
+      top: 10px;
+      opacity: 0; */
+  }
+  .contoso-logo {
+      text-align:right;
+      padding-right: 20px;
+      margin-top:-2px;
+  }
+  .laptop {
+      position: relative;
+      margin-top: -7px;
+  }
+  .op_animate {
+    opacity: 0;
+  }
+
+  .op_animate-none {
+      display: none
+  }
+
+  .ad-logo {
+      position: relative;
+      top: 8px;
+      left: 45px;
+  }
+
+  .transition-element {
+      width: 500px;
+      height: 500px;
+      background: #FFF;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+  }
+
+  .ad-logo-details {
+    color: #FFF;
+    font-size:10px;
+    text-align: center;
+  }
+  .opening-overlay {
+    position: absolute;
+    height: 300%;
+    width: 150%;
+    left: -120px;
+    top: 0;
+    z-index: 2;
+    padding-top: 0 !important;
+
+    transition: all 1.3s cubic-bezier(0, 0.085, 0.000, 1);
+    -webkit-transition: all 1.3s cubic-bezier(0, 0.085, 0.000, 1);
+    -moz-transition: all 1.3s cubic-bezier(0, 0.085, 0.000, 1);
+    -o-transition: all 1.3s cubic-bezier(0, 0.085, 0.000, 1);
+  }
+
+  .opening-overlay.animate {
+    left: 100%;
+  }
+
+  .ad-text {
+    position: relative;
+  }
+
+  .ad_text-1 {
+    top: 10px;
+    position: relative;
+  }
+  .ad_text-2 {
+    position: absolute;
+    top: 0;
+    left: -10px;
+  }
