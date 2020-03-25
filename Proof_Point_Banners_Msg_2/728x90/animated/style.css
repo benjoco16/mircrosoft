@@ -108,7 +108,7 @@ p, span, a {
   }
   .ad-text {
       margin-left:20px;
-      width: 242px;
+      width: 260px;
   }
   .ad-text p {
       font-size: 16px;
@@ -138,7 +138,7 @@ p, span, a {
   .ad-logo {
       position: relative;
       top: 8px;
-      left: 45px;
+      left: 34px;
   }
 
   .transition-element {
