@@ -59,7 +59,7 @@ p, span, a {
   }
   .laptop {
     margin-top:49px;
-    margin-bottom:45px;
+    margin-bottom:30px;
   }
   .ad-text {
     position: relative;
@@ -74,7 +74,7 @@ p, span, a {
   .see-details {
       font-size:10px;
       display: block;
-      margin-top:15px;
+      margin-top:25px;
   }
   .banner-top {
       /* padding: 0 20px 0 15px; */

@@ -55,7 +55,7 @@ p, span, a {
       width: 160px;
       position: relative;
       padding: 15px;
-      background: url("assets/background.png") no-repeat, top center;
+      background: url("assets/background.jpg") no-repeat, top center;
   }
   .laptop {
     margin-top:49px;
@@ -66,8 +66,9 @@ p, span, a {
   }
   .ad-text p {
     font-size:18px;
+    width: 120px;
     line-height: 1.22;
-    /* padding-top: 55px; */
+     padding-top: 40px; 
     font-family: 'SegoeUI-Semibold', sans-serif;
   }
   .see-details {
@@ -76,7 +77,7 @@ p, span, a {
       margin-top:25px;
   }
   .banner-top {
-      /* padding: 0 20px 0 15px; */
+     padding: 150px 20px 0 0px;
       color: #fff;
       height: 300px;
       
